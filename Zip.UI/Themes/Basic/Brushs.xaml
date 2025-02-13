@@ -1,0 +1,15 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="TextBox.Background" Color="#fff" />
+    <SolidColorBrush x:Key="TextBox.Background.Focused" Color="#fff" />
+    <SolidColorBrush x:Key="TextBox.Background.Disabled" Color="#f6f8fa" />
+    <SolidColorBrush x:Key="TextBox.BorderBrush" Color="#d1d9e0" />
+    <SolidColorBrush x:Key="TextBox.BorderBrush.Focused" Color="#0969da" />
+    <SolidColorBrush x:Key="TextBox.BorderBrush.Disabled" Color="#f6f8fa" />
+    <SolidColorBrush x:Key="TextBox.Icon" Color="#d1d9e0" />
+    <SolidColorBrush x:Key="TextBox.Watermark" Color="#d1d9e0" />
+    <SolidColorBrush x:Key="TextBox.Text" Color="#23262e" />
+
+</ResourceDictionary>

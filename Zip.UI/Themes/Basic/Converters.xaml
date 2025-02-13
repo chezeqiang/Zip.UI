@@ -1,0 +1,9 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:convert="clr-namespace:Zip.UI.Converters">
+
+    <convert:NullableToVisibilityConverter x:Key="NullableToVisibilityConverter" />
+    <convert:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    
+</ResourceDictionary>
