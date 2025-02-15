@@ -72,5 +72,22 @@ namespace Zip.UI.Extensions
             DependencyProperty.RegisterAttached("Brush", typeof(Brush), typeof(Icon), new PropertyMetadata(null));
 
         #endregion
+
+        #region Margin
+
+        public static Thickness GetMargin(DependencyObject obj)
+        {
+            return (Thickness)obj.GetValue(MarginProperty);
+        }
+
+        public static void SetMargin(DependencyObject obj, Thickness value)
+        {
+            obj.SetValue(MarginProperty, value);
+        }
+
+        public static readonly DependencyProperty MarginProperty =
+            DependencyProperty.RegisterAttached("Margin", typeof(Thickness), typeof(Icon), new PropertyMetadata(default(Thickness)));
+
+        #endregion
     }
 }

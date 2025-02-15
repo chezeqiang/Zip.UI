@@ -3,9 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="pack://application:,,,/Zip.UI;component/Themes/Basic/Brushs.xaml" />
-        <ResourceDictionary Source="pack://application:,,,/Zip.UI;component/Themes/Basic/Converters.xaml" />
-        <ResourceDictionary Source="pack://application:,,,/Zip.UI;component/Themes/Basic/Geometries.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/Zip.UI;component/Themes/Styles/Button.xaml" />
         <ResourceDictionary Source="pack://application:,,,/Zip.UI;component/Themes/Styles/TextBox.xaml" />
         <ResourceDictionary Source="pack://application:,,,/Zip.UI;component/Themes/Styles/PasswordBox.xaml" />
     </ResourceDictionary.MergedDictionaries>

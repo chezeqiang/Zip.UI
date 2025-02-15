@@ -3,9 +3,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="pack://application:,,,/Zip.UI;component/Themes/Styles/TextBoxStyle.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/Zip.UI;component/Themes/Styles/ButtonStyle.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
-    <Style BasedOn="{StaticResource TextBoxDefaultStyle}" TargetType="{x:Type TextBox}" />
+    <Style BasedOn="{StaticResource ButtonDefaultStyle}" TargetType="{x:Type Button}" />
 
 </ResourceDictionary>

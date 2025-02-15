@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace Zip.Sample
+namespace Zip.Sample.Views
 {
     public partial class MainWindow : Window
     {

@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using Zip.Sample.Views;
 
 namespace Zip.Sample
 {
